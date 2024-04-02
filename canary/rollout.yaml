@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: app-pod
-        image: chahatsagarmain/app:0.1.0
+        image: chahatsagarmain/app:0.2.0
         ports:
         - name: http
           containerPort: 8000
