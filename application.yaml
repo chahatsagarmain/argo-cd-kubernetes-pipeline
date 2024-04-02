@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/chahatsagarmain/argo-cd-kubernetes-pipeline.git
     targetRevision: HEAD
-    path: dev
+    path: canary
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: canary
   syncPolicy:
     automated:
       prune: true

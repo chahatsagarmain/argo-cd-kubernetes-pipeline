@@ -23,3 +23,7 @@ async def get_user(user_id : int | None):
     
     return HTTPException(404 , {"message" : "user with user id not present"})
 
+@router.get("/new")
+async def new_route():
+    
+    return {"message" : "this is new route your on 0.2.0"}
